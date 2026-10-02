@@ -7,7 +7,7 @@ from tqdm import tqdm
 from pathlib import Path
 import importlib
 from box import Box
-from networks.sm_network import SMNet as Model 
+# from networks.sm_network import SMNet as Model 
 import torch
 from torch.nn.functional import cross_entropy
 from libs.data_loader import get_data_processor
